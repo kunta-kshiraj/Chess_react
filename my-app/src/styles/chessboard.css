@@ -1,0 +1,107 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    background-image: url('../../public/chesspieces.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: overlay; 
+    font-family: Arial, sans-serif;
+  }
+  
+  
+
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    
+    padding: 20px;
+    color:rgb(193, 230, 240);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  table {
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid black;
+  }
+  
+  
+  td {
+    background: rgb(193, 230, 240);
+  }
+  
+  tr:nth-child(even) td:nth-child(even),
+  tr:nth-child(odd) td:nth-child(odd) {
+    background: rgb(30, 100, 114);
+  }
+  
+  
+  th {
+    background:rgb(227, 231, 232);
+    width: 40px; 
+    height: 40px; 
+    font-size: 20px; 
+    border: none;
+  }
+  
+  label{
+    color:rgb(193, 230, 240);
+    font-size: 25;
+    font-weight: bolder;
+  }
+
+  .main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    gap: 20px;
+  }
+  
+  .chessboard-container {
+    flex: 1;
+  }
+  
+  .history-container {
+    flex: 1;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    margin-right:200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+  
+  .chess-piece {
+    font-size: 24px; 
+  }
+
+  
+ 
+  
+  
+  
